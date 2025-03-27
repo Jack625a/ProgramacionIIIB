@@ -32,7 +32,7 @@ class Persona:
         self.edad=edad
         self.altura=altura
         self.ci=ci
-    #PASO 3. DEFINIR LAS ACCIONES
+    #PASO 3. DEFINIR LAS ACCIONES 
     def comer(self,comida):
         print(f"{self.nombre} Esta comiendo {comida}")
 
@@ -70,7 +70,7 @@ class Estudiante(Persona):
 
 
 estudiante1=Estudiante("Kevin",25,1.75,12345678,45451,"Ingenieria de Sistemas",6)
-
+estudiante2=Estudiante()
 estudiante1.dormir()
 estudiante1.estudiar()
 estudiante1.comer("Pan")
