@@ -10,6 +10,10 @@ class Persona:
     def inscribirse(self,sistema):
         print("Solicitud de inscripsion")
         self.sistema=sistema
+#Subclasess
+class Estudiante(Persona):
+    pass
+
 
 #Clase padre
 class Universidad:
@@ -20,6 +24,11 @@ class Universidad:
     def procesarSolicitud(self):
         print("Universidad esta procesando su solicitud...")
 
+#SUBCLASE
+class Facultad(Universidad):
+    pass
+class Carrera(Universidad):
+    pass
 
 #CLASE INTERMEDIA (PUENTE DE COMUNICACION)
 class SistemaRegistroUniversidad:
