@@ -102,3 +102,24 @@ class UsuarioVip(Usuario):
         else: 
             print("Ya no es un usuario Vip")
 
+while True:
+    print("Bienvenido")
+    print("1. Ver saldo")
+    print("2. Retirar")
+    print("3. Depositar")
+    print("4. Salir")
+    opcion=input("Ingrese la operacion a realizar: ")
+    if opcion=="1":
+        #versaldo
+        pass
+    elif opcion=="2":
+        #retirar
+        pass
+    elif opcion=="3":
+        #Depositar
+        pass
+    elif opcion=="4":
+        break
+    else:
+        print("Operacion invalida...")
+
