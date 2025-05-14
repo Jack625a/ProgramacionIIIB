@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./modularizacion/src/pantallas"
+    ]
+}

@@ -16,7 +16,7 @@ def main(page: ft.Page):
     #NAVEGACION
     page.navigation_bar=ft.NavigationBar(
         destinations=[
-            ft.NavigationBarDestination(label="Inicio",icon=ft.Icons.HOME),
+            ft.NavigationBarDestination(label="Inicio",icon=ft.Icons.HOME,),
             ft.NavigationBarDestination(label="Ajustes",icon=ft.Icons.SETTINGS),
             ft.NavigationBarDestination(label="Perfil",icon=ft.Icons.PERSON),
             ft.NavigationBarDestination(label="Servicios", icon=ft.Icons.ROOM_SERVICE)
