@@ -3,8 +3,8 @@ import flet as ft #Importacion del framework
 import requests #peticiones o solicitudes a un servidor
 
 #PASO 2. CONFIGURAR LAS VARIABLES DE CONEXION
-TOKENAIRTABLE=''
-idBasedatos= ''
+TOKENAIRTABLE='patbYDRYtJI1qosBQ.d868beffbf80fb91296c452bd4b05ac21092fb579cf32ca6169205d574f2f999'
+idBasedatos= 'appB6cHkkXoZIQQjf'
 nombreTabla='Estudiante'
 
 #PASO 3. CONFIGURAR LA URL DE CONEXION ENDPOINT
